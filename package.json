@@ -1,0 +1,29 @@
+{
+  "name": "secret-of-the-underlying-computer",
+  "version": "1.0.0",
+  "description": "### 스터디 룰",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "review": "npm run build && node dist/claude.review.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akitsuki-lab/secret-of-the-underlying-computer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akitsuki-lab/secret-of-the-underlying-computer/issues"
+  },
+  "homepage": "https://github.com/akitsuki-lab/secret-of-the-underlying-computer#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/node-fetch": "^2.6.12",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
