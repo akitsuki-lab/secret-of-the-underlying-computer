@@ -1,0 +1,12 @@
+# directories
+.idea/
+dist/
+node_modules/
+
+# files
+.env*
+*.env*
+
+
+
+
